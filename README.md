@@ -1,6 +1,6 @@
 # Minimalist
 
-[![Build Status](https://travis-ci.com/nalexn/Minimalist.svg?branch=master)](https://travis-ci.com/nalexn/Minimalist) [![codecov](https://codecov.io/gh/nalexn/Minimalist/branch/master/graph/badge.svg)](https://codecov.io/gh/nalexn/Minimalist)
+[![Build Status](https://travis-ci.com/nalexn/Minimalist.svg?branch=master)](https://travis-ci.com/nalexn/Minimalist) [![Coverage Status](https://coveralls.io/repos/github/nalexn/minimalist/badge.svg)](https://coveralls.io/github/nalexn/minimalist)
 
 Building data-driven UI without `Rx`
 
