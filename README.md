@@ -103,6 +103,26 @@ $appState.observe(\.screens.loginScreen, with: self) { (obj, state) in
 }
 ```
 
+### Installation
+
+@ Carthage
+
+```
+github "nalexn/minimalist"
+```
+
+@ CocoaPods
+
+```
+pod 'Minimalist'
+```
+
+@ SPM
+
+```
+.package(url: "https://github.com/nalexn/minimalist.git", from: "1.0.0")
+```
+
 ---
 
 [![blog](https://img.shields.io/badge/blog-github-blue)](https://nalexn.github.io/?utm_source=nalexn_github) [![venmo](https://img.shields.io/badge/%F0%9F%8D%BA-Venmo-brightgreen)](https://venmo.com/nallexn)
