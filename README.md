@@ -2,7 +2,7 @@
 
 [![Build Status](https://travis-ci.com/nalexn/Minimalist.svg?branch=master)](https://travis-ci.com/nalexn/Minimalist) [![codecov](https://codecov.io/gh/nalexn/Minimalist/branch/master/graph/badge.svg)](https://codecov.io/gh/nalexn/Minimalist)
 
-Utilizing the capabilities of Swift 5.1 for building data-driven UI without `Rx`
+Building data-driven UI without `Rx`
 
 ## What is that?
 
