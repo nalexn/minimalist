@@ -5,3 +5,6 @@ xcode_project: Minimalist.xcodeproj
 xcode_scheme: Minimalist-Package
 xcode_sdk: iphonesimulator13.2
 xcode_destination: platform=iOS Simulator,OS=13.2.2,name=iPhone 8
+before_install: rvm use $RVM_RUBY_VERSION
+install: bundle install --without=documentation --path ../travis_bundle_dir
+after_success: slather

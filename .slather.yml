@@ -1,0 +1,5 @@
+# .slather.yml
+
+coverage_service: coveralls
+xcodeproj: Minimalist.xcodeproj
+scheme: Minimalist-Package

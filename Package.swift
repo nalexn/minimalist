@@ -7,7 +7,6 @@ let package = Package(
     platforms: [
         .macOS(.v10_10), .iOS(.v12), .tvOS(.v12), .watchOS(.v5)
     ],
-    swiftLanguageVersions: [.v5],
     products: [
         .library(name: "Minimalist", targets: ["Minimalist"]),
     ],
@@ -15,5 +14,6 @@ let package = Package(
     targets: [
         .target(name: "Minimalist", dependencies: []),
         .testTarget( name: "MinimalistTests", dependencies: ["Minimalist"]),
-    ]
+    ],
+    swiftLanguageVersions: [.v5]
 )
