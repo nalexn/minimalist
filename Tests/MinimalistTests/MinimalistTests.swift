@@ -6,6 +6,8 @@
 //  Copyright © 2020 Alexey Naumov. All rights reserved.
 //
 
+#if !os(watchOS)
+
 import XCTest
 @testable import Minimalist
 
@@ -162,3 +164,5 @@ class SignalTests: XCTestCase {
         XCTAssertEqual(values2, [12, -8, 17])
     }
 }
+
+#endif
