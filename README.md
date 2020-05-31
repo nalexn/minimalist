@@ -23,7 +23,7 @@ Also known as:
 
 ```swift
 class ViewModel {
-    @Property var items: [Items]
+    @Property var items: [Items] = []
 }
 
 // Access the current value:
@@ -65,7 +65,7 @@ You can restrict the write access from outside of the module using just Swift's 
 
 ```swift
 class ViewModel {
-    @Property private(set) var value: String = ""
+    @Property private(set) var value: String = "Minimalist"
     @Signal private(set) var signal: Accepts<Void>
 }
 
