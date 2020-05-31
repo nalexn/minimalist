@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "1150"
+   LastUpgradeVersion = "9999"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "F6F25DF72482E3DF00764AB9"
+               BlueprintIdentifier = "Minimalist::Minimalist"
                BuildableName = "Minimalist.framework"
                BlueprintName = "Minimalist"
                ReferencedContainer = "container:Minimalist.xcodeproj">
@@ -33,7 +33,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "F6F25E002482E3DF00764AB9"
+               BlueprintIdentifier = "Minimalist::MinimalistTests"
                BuildableName = "MinimalistTests.xctest"
                BlueprintName = "MinimalistTests"
                ReferencedContainer = "container:Minimalist.xcodeproj">
@@ -58,15 +58,6 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
-      <MacroExpansion>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "F6F25DF72482E3DF00764AB9"
-            BuildableName = "Minimalist.framework"
-            BlueprintName = "Minimalist"
-            ReferencedContainer = "container:Minimalist.xcodeproj">
-         </BuildableReference>
-      </MacroExpansion>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
