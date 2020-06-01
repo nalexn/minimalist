@@ -163,6 +163,16 @@ class SignalTests: XCTestCase {
         XCTAssertEqual(values1, [1, 7, 3])
         XCTAssertEqual(values2, [12, -8, 17])
     }
+    
+    func testSelfFiltering() {
+        var receivedValues: [Int] = []
+        container.$signal.observe(\.self, with: self, closure: { (obj, value) in
+            receivedValues.append(value)
+        })
+        let sample = [4, 4, -7, -7, -7, 5, 3]
+        sample.forEach { container.signal.send($0) }
+        XCTAssertEqual(receivedValues, [4, -7, 5, 3])
+    }
 }
 
 #endif

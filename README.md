@@ -103,6 +103,8 @@ $appState.observe(\.screens.loginScreen, with: self) { (obj, state) in
 }
 ```
 
+Pro Tip: `\.self` is also a valid `KeyPath`. This way you can discard the same values while observing a primitive type.
+
 ### Installation
 
 @ Carthage
