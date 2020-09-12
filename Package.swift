@@ -5,7 +5,7 @@ import PackageDescription
 let package = Package(
     name: "Minimalist",
     platforms: [
-        .macOS(.v10_6), .iOS(.v10), .tvOS(.v12), .watchOS(.v5)
+        .macOS(.v10_10), .iOS(.v10), .tvOS(.v12), .watchOS(.v5)
     ],
     products: [
         .library(name: "Minimalist", targets: ["Minimalist"]),
