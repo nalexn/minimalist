@@ -4,7 +4,7 @@
 
 Building data-driven UI without `Rx`
 
-## What is that?
+---
 
 I'm a big fan of reactive frameworks. I've used RxSwift, ReactiveSwift, Combine, and I suffer every time I join the project where the team cannot adopt one for some reason.
 
